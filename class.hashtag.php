@@ -38,13 +38,13 @@ class hashtag {
 		       
 				
 				if ($service=="hastag"){ 
-					 $out.= "<br>#".$words[$x]; 
+					 $out.= "<br>#XRPL-".$words[$x]; 
 				} 
 				if ($service=="instagram"){ 
-					 $out.= "<br><a href='https://www.instagram.com/explore/tags/".$words[$x]."'>#".$words[$x]."</a>";
+					 $out.= "<br><a href='https://www.instagram.com/explore/tags/".$words[$x]."'>#XRPL-".$words[$x]."</a>";
 				} 
 				if ($service=="twitter"){ 
-					 $out.= "<br><a href='https://twitter.com/hashtag/".$words[$x]."'>#".$words[$x]."</a>";
+					 $out.= "<br><a href='https://twitter.com/hashtag/".$words[$x]."'>#XRPL-".$words[$x]."</a>";
 				} 
 				
 				if ($service=="plain"){ 
